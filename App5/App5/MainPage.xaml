@@ -9,7 +9,9 @@
              
              >
 
-
+  <!--<Page.Resources>
+    <BitmapImage x:Key="carlpoke" UriSource="/Pokes/199.png"/>
+  </Page.Resources>-->
   <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
     <StackLayout>
       <Label Text="GitCheck"/>
@@ -38,6 +40,14 @@
 
         </Label.FormattedText>
       </Label>
+      <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#681bf7" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.199.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>       
+      
+      
+      
+      
       <Label Text="Amy" FontAttributes="Bold" FontSize="30" TextColor ="#1c7241"/>
       <Label VerticalOptions="Center">
         <Label.FontSize>20</Label.FontSize>
@@ -52,6 +62,11 @@
 
         </Label.FormattedText>
       </Label>
+            <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#1c7241" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.36.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>      
+      
       <Label Text="John" FontAttributes="Bold" FontSize="25" TextColor ="#e23724"/>
       <Label VerticalOptions="Center">
         <Label.FontSize>20</Label.FontSize>
@@ -65,6 +80,10 @@
 
         </Label.FormattedText>
       </Label>
+                <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#e23724" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.324.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>  
       <Label Text="Sigrid" FontAttributes="Bold" FontSize="30" TextColor ="#2489e2"/>
       <Label VerticalOptions="Center">
         <Label.FontSize>20</Label.FontSize>
@@ -78,6 +97,11 @@
 
         </Label.FormattedText>
       </Label>
+      <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#2489e2" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.38.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>  
+      
 
       <Label Text="Wally" FontAttributes="Bold" FontSize="30" TextColor ="#e2c624"/>
       <Label VerticalOptions="Center">
@@ -92,6 +116,10 @@
 
         </Label.FormattedText>
       </Label>
+      <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#e2c624" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.508.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>  
 
       <Label Text ="Lulu" FontAttributes="Bold" FontSize="30" TextColor ="#f71bf3"/>
       <Label VerticalOptions="Center">
@@ -107,6 +135,11 @@
 
         </Label.FormattedText>
       </Label>
+            <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#f71bf3" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.197.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>  
+
 
 
     </StackLayout>
