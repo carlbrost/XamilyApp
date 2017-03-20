@@ -2,10 +2,148 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App5"
-             x:Class="App5.MainPage">
+             x:Class="App5.MainPage"
+             Title="The Fam"
+             BackgroundColor ="Navy"
+             Padding ="5,5,5,5"
+             
+             >
 
-  <Label Text="Welcome to Xamarin Forms!"
-           VerticalOptions="Center"
-           HorizontalOptions="Center" />
+  <!--<Page.Resources>
+    <BitmapImage x:Key="carlpoke" UriSource="/Pokes/199.png"/>
+  </Page.Resources>-->
+  <ScrollView Orientation="Vertical" VerticalOptions="FillAndExpand">
+    <StackLayout>
+      <Label Text="GitCheck"/>
+      <Label Text="Hello From The Family Brost!"
+             TextColor="#49ff21"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"
+             FontAttributes="Italic"
+             BackgroundColor="Black"
+             FontSize="Large"
+         
+         />
+
+
+      <Label Text="{Binding MainText}" VerticalOptions="Center" HorizontalOptions="Center" />
+      <Label Text="Carl" FontAttributes="Bold" FontSize="30" TextColor ="#681bf7"/>
+      <Label VerticalOptions="Center">
+        <Label.FontSize>20</Label.FontSize>
+        <Label.FormattedText>
+          <FormattedString>
+            <Span Text="That's myself, 24 year old NERD, lover of games of all kinds, and programmer"/>
+            <Span Text = "I'm a bit of a space case, but I'm working to dedicate myself to my dreams, as well as stay alive"/>
+            <Span Text =  "I also love tabletop roleplaying games, and run a campaign for me and a few friends online"/>
+            <Span Text =  "My biggest dream is to make a story, a high fantasy adventure that will inspire and bring people solace and joy."/>
+          </FormattedString>
+
+        </Label.FormattedText>
+      </Label>
+      <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#681bf7" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.199.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>       
+      
+      
+      
+      
+      <Label Text="Amy" FontAttributes="Bold" FontSize="30" TextColor ="#1c7241"/>
+      <Label VerticalOptions="Center">
+        <Label.FontSize>20</Label.FontSize>
+        <Label.FormattedText>
+          <FormattedString>
+
+            <Span Text="Amy Anderson is my mom, and a native of Aberdeen, South Dakota"/>
+            <Span Text = "She's a practically a disney princess, honestly, in how kind and caring she is."/>
+            <Span Text =  "She's kept the family alive, and in one peice, mostly, more than few times with her medical knowledge. "/>
+            <Span Text =  "She's also one of the most gore resitant people alive. She's seen injuries on an hourly basis that would make most promptly hurl Or pass out."/>
+          </FormattedString>
+
+        </Label.FormattedText>
+      </Label>
+            <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#1c7241" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.36.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>      
+      
+      <Label Text="John" FontAttributes="Bold" FontSize="25" TextColor ="#e23724"/>
+      <Label VerticalOptions="Center">
+        <Label.FontSize>20</Label.FontSize>
+        <Label.FormattedText>
+          <FormattedString>
+            <Span Text="John Brost, is my dad and a native of Murdo, South Dakota"/>
+            <Span Text = "I'm a bit of a space case, but I'm working to dedicate myself to my dreams, as well as stay alive"/>
+            <Span Text = "He's a hardworking man, and is responsible for my family, halphazard as it's creation was, for being prosperous"/>
+            <Span Text =   "He's a big softie too. He just recently bought a new puppy, that he's damn eager to meet."/>
+          </FormattedString>
+
+        </Label.FormattedText>
+      </Label>
+                <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#e23724" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.324.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>  
+      <Label Text="Sigrid" FontAttributes="Bold" FontSize="30" TextColor ="#2489e2"/>
+      <Label VerticalOptions="Center">
+        <Label.FontSize>20</Label.FontSize>
+        <Label.FormattedText>
+          <FormattedString>
+            <Span Text="Sigrid brost is my younger sister by 4 years, though sometimes she feels like the older. "/>
+            <Span Text =    "She's a near straight A student, and works consistently, very hard, though she has some occasional moments that make it very obvious she's an Edina girl"/>
+            <Span Text = "She's working to learn the ukele at the moment, though progress has been rather slow" />
+            <Span Text = "She's a former gymnast, and can still do a stunning amount of cartwheels. "  />
+          </FormattedString>
+
+        </Label.FormattedText>
+      </Label>
+      <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#2489e2" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.38.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>  
+      
+
+      <Label Text="Wally" FontAttributes="Bold" FontSize="30" TextColor ="#e2c624"/>
+      <Label VerticalOptions="Center">
+        <Label.FontSize>20</Label.FontSize>
+        <Label.FormattedText>
+          <FormattedString>
+            <Span Text= "A 20 year old westie, and a bit of a chubby sausage, in his old age"/>
+            <Span Text = "He's pretty much attached to my mom at the hip, and rarely leaves her side." />
+            <Span Text =  "That said he's had a number of highly impressive escape attempts, one of whcih, in his prime, ended up with him all the way in across highway 484. Somehow." />
+            <Span Text = "He's also eaten 10 bars of chocolate at once. I marvel at how he's still alive, honestly. "/>
+          </FormattedString>
+
+        </Label.FormattedText>
+      </Label>
+      <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#e2c624" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.508.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>  
+
+      <Label Text ="Lulu" FontAttributes="Bold" FontSize="30" TextColor ="#f71bf3"/>
+      <Label VerticalOptions="Center">
+        <Label.FontSize>20</Label.FontSize>
+        <Label.FormattedText>
+          <FormattedString>
+
+            <Span Text= "Lulu is our cat, a burmeese little thing, about 10 years old, and a curious litttle thing. "/>
+            <Span Text = "Her first year was rough, as she was constantly sick. When we called the breeder about her problems, we found that she'd vanished. "/>
+            <Span Text =  "But much like her namesake, she's deceptively tough, and survived her disease, as well as a few nights out in the cold before yeowling outside a window to let her back in. "/>
+            <Span Text =  "She's prettymuch infamous at this point for her dislike of humans other than our family, though strangely, she rather seems to come out if there's italian food. Pizza in particular "/>
+          </FormattedString>
+
+        </Label.FormattedText>
+      </Label>
+            <Label Text="Spirit Pokemon" FontAttributes="Bold" FontSize="30" TextColor ="#f71bf3" HorizontalOptions="Center"/>
+      <Image Source="{local:ImageResource App5.197.png}"
+      WidthRequest="400"
+      HorizontalOptions="Center"/>  
+
+
+
+    </StackLayout>
+  </ScrollView>
+
 
 </ContentPage>
